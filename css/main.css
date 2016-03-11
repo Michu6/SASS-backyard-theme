@@ -1,9 +1,11 @@
 /* HEADER */
 body {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  color: #8b8c8b; }
 
 .navbar {
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 0; }
   .navbar .navbar-brand {
     padding-top: 5px; }
     .navbar .navbar-brand img {
@@ -28,12 +30,28 @@ body {
       font-size: 1.1em;
       min-width: 280px;
       width: 48%; }
+    .hero-image .hero-opacity .icon {
+      color: white;
+      margin-left: 5%; }
+
+/* STRATEGIES */
+.optimize {
+  padding: 7% 0; }
+  .optimize h2 {
+    font-size: 2.7em; }
+
+.strategies {
+  background-color: #f6f6f6;
+  padding: 7% 0 1%; }
+  .strategies h3 {
+    font-size: 2.2em; }
 
 .btn-blue {
   background-color: none;
   border: 2px solid #3cb1f6;
   border-radius: 45px;
   color: #3cb1f6;
+  font-weight: bold;
   margin-right: 25px;
   padding: 10px 28px; }
   .btn-blue:hover {
@@ -41,9 +59,23 @@ body {
     color: white;
     text-decoration: none; }
 
-.optimize img {
-  width: 100%; }
-.optimize .text-blue {
+.mtp-40 {
+  margin: 40px 0; }
+
+.text-blue {
   color: #3cb1f6; }
+
+img {
+  width: 100%; }
+
+.social-media .btn-blue {
+  height: 2em;
+  margin: 0 5px;
+  padding: 5px;
+  width: 2em; }
+
+/* FOOTER */
+footer {
+  padding: 2% 0; }
 
 /*# sourceMappingURL=main.css.map */
